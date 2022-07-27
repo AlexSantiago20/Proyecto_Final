@@ -1,0 +1,73 @@
+div{
+
+    background-color: tomato;
+}
+
+div h2{
+    color: white;
+}
+
+.destacado{
+
+    background-color: blueviolet;
+    color: white;
+
+
+}
+
+div.destacado p{
+    color: yellow;
+    font-size: 24px;
+}
+
+.color-borde{
+    border: 5px solid black;
+
+
+}
+
+.destacado .titulo{
+    background-color: aqua;
+    color: black;
+}
+
+#novedades{
+
+    border: 2px solid orange;
+    width: 600px;
+
+}
+
+#novedades.dark{
+    background-color: yellowgreen;
+}
+
+#novedades .titular{
+    color: blue;
+
+}
+
+.grid{
+    height: 400px;
+    background-color: red;
+    display: grid;
+    gap: 30px;
+    padding: 20px;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px ;
+    justify-items:stretch;
+    align-items:stretch;
+    justify-content: center;
+    align-content: center;
+    
+    
+    
+}
+
+.grid div{
+    background-color: yellow;
+    color: green;
+    padding: 10px;
+    font-style: oblique;
+    
+}

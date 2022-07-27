@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form action="enviar.php" method="get">
+
+        <fieldset>
+
+            <legend>Información del cliente </legend>
+
+
+
+    <div>
+
+    <label for="nombre">Nombre completo del cliente del gimnasio</label>
+
+    <input type="text" id="nombre" placeholder="Ingrese su nombre y apellidos" required> 
+
+</div>
+
+<br>
+
+<div>
+
+
+    <label for="email">E mail/correo</label>
+
+    <input type="email" id="email" placeholder="Ingrese su email">
+
+</div>
+
+</fieldset>
+
+<br>
+
+<div>
+
+<label for="pass">Password</label>
+
+<input type="password" id="pass" placeholder="Ingrese su contraseña">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="">Comentarios</label>
+
+<textarea name="caja" id="caja" cols="30" rows="5"></textarea>
+
+</div>
+
+<br>
+
+<div>
+
+    <label for="coder">¿Recibiste el código único y el número?</label>
+
+    <input type="radio" name="curso" id="coder1">Si
+    <input type="radio" name="curso" id="coder2">No
+    
+</div>
+
+<br>
+
+<div>
+
+    <input type="checkbox" name="acepto" id="">Acepta terminos y condiciones.
+    <input type="checkbox" name="noticiaspromociones" id="">Deseo recibir noticias y promociones
+</div>
+
+<br>
+
+<div>
+
+    <label for="municipios">Seleccione un municipio</label>
+
+    <select name="municipios" id="municipios">
+
+        <option value="00">Seleccione un municipio</option>
+        <option value="01">Tlalnepantla</option>
+        <option value="02">Azcapotzalco</option>
+        <option value="03">Naucalpan</option>
+
+
+    </select>
+</div>
+
+<br>
+
+<input type="submit" value="Registrarme">
+<input type="reset" value="Borrar todo">
+
+</form>
+
+
+
+
+    
+</body>
+</html>

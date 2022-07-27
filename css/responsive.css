@@ -1,0 +1,97 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family:sans-serif;
+}
+
+.box-responsive{
+    width: 100% ;
+    height: 200px ;
+    background-color: aquamarine ;
+    padding: 10px ;
+}
+
+.grid-responsive{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media (max-width: 600px) { /* max = hasta...*/ 
+    /*estilos CSS*/
+
+    .box-responsive{
+        background-color: tomato;
+    }
+
+    .box-responsive p{
+        display: none;
+
+    }
+
+}
+
+@media (min-width:768px) { /* min = desde...*/
+
+    .box-responsive{
+        background-color: black;
+        color: white;
+    }
+    .grid-responsive{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 850px ) and (max-width: 950px) { /*desde y hasta */
+
+    .box-responsive h2{
+        background-color: blueviolet;
+        color: yellow;
+    }
+
+
+}
+
+@media (min-width: 850px ) and (max-width: 950px) { /*desde y hasta */
+
+    .box-responsive h2{
+        background-color: blueviolet;
+        color: yellow;
+    }
+
+
+}
+
+.boxModel{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+   /* margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 35px;*/
+    margin: 25px auto; /* top right bottom left*/
+    
+    
+    border: 10px dashed black;
+    border-top-color: orange;
+    padding: 50px 25px ;
+    overflow: auto;
+
+
+
+
+}
+
+
+.boxModel h2{
+    margin-bottom: 30px;
+
+}
+
+.boxModel p{
+    font-size: 20px;
+}

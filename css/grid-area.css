@@ -1,0 +1,44 @@
+#grid{
+    display: grid;
+    grid-template-areas: 
+    "menu logo logo"
+    "menu info1 banner"
+    "menu info1 banner"
+    "menu info2 banner"
+    "redes redes redes";
+
+    gap: 5px;
+    height: 100vh;
+    grid-template-rows: 100px auto auto auto 100px;
+}
+
+header{
+    background-color: aquamarine;
+    grid-area: logo;
+}
+
+nav{
+    background-color: orange;
+    grid-area: menu;
+}
+
+main{
+    background-color: violet;
+    grid-area: info1;
+}
+
+section{
+    background-color: greenyellow;
+    grid-area: info2;
+}
+
+aside{
+    background-color: tomato;
+    grid-area: banner;
+}
+
+footer{
+    background-color: skyblue;
+    grid-area: redes;
+}
+
